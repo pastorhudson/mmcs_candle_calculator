@@ -68,16 +68,16 @@ if __name__ == "__main__":
 
 
     # List of (name, birthday) tuples
-    # people = [
-    #     ("Ron", "1981-01-14"),
-    #     ("Jake", "2009-09-24"),
-    #     ("Charlie", "2010-03-08")
-    # ]
-    #
-    # result = calculate_total_candles(people)
-    #
-    #
-    # print("\nDetails:")
-    # for person in result['details']:
-    #     print(f"  {person['name']} ({person['birthday']}): {person['candles']} candles")
-    # print(f"Total candles needed: {result['total']}")
+    people = [
+        ("Ron", "1981-01-14"),
+        ("Jake", "2009-09-24"),
+        ("Charlie", "2010-03-08")
+    ]
+
+    result = calculate_total_candles(people)
+
+
+    print("\nDetails:")
+    for person in result['details']:
+        print(f"  {person['name']} ({person['birthday']}): {person['candles']} candles")
+    print(f"Total candles needed: {result['total']}")
